@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Index</title>
+</head>
+
+<body>
+
+   <div id="Home" class="Home">
+
+    <div class="container">
+      <div class="inside">
+
+
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+
+            <img class="logow" src="projectImages/logo-White.svg" alt="">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="#navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end  " id="navbarTogglerDemo03">
+            <ul class="navbar-nav  ml-auto">
+                <li class="nav-item"><a href="#Home">Home</a></li>
+                <li class="nav-item"><a href="#Menu">Menu</a></li>
+                <li class="nav-item"><a href="#Gallery">Gallery</a></li>
+                <li class="nav-item"><a href="#Testimonials">Testimonials</a></li>
+                <li class="nav-item"><a href="#Contact-Us">Contact Us</a></li>
+
+</ul>
+                <ul class="navbar-nav navbar2 ml-auto">
+                <li class="nav-item"><a href="Search">Search</a></li>
+                <li class="nav-item"><a href="Profile">Profile</a></li>
+                <li class="nav-item" ><button  type="button" class="btn cart " data-bs-toggle="modal" data-bs-target="#exampleModal">Cart</button><p id="counter-index">0</p></li>
+
+
+            </ul>
+          </div>
+      </nav>
+      </div>
+
+
+
+      <div class="content">
+      <h1 class="partytime  ">Party Time </h1>
+
+      <div class="shape1">
+      <h3 class="buy2 h3 ">Buy any 2 burgers and get 1.5L Pepsi Free</h3>
+    </div>
+
+      <a href=""><button class="testbutton  rounded-pill btn-sm">Order Now</button></a>
+    </div>
+
+    </div>
+
+    </div>
+
+    <? php include 'include/inc.header.php';?>
+
+
+    <div id="Menu">
+      <h2 class="Menu-heading">Want to Eat </h2>
+      <p class="Menu-p">Try our most delicious food and usually takes minutes to deliver</p>
+
+      <div class="Menu-food-div">
+
+
+        <a class="Menu-food" href="pizza">pizza</a>
+        <a class="Menu-food" href="fast food">fast food</a>
+        <a class="Menu-food" href="cupcake">cupcake</a>
+        <a class="Menu-food" href="sandwich">sandwich</a>
+        <a class="Menu-food" href="spaghetti">spaghetti</a>
+        <a class="Menu-food" href="burger">burger</a>
+
+      </div>
+      <div class="row">
+
+      <div class="delivery-pic container-fluid ">
+        <img class=" delivery img-fluid col-lg-6 " src="projectImages\delivery.png">
+
+        <h2 class="buy3 col-lg-6  ">We guarantee 30 minutes delivery </h2>
+
+      <p class="Menu-p2">If your having a meeting, working late at night and need an extra push</p>
+      </div>
+    </div>
+
+
+    </div>
+
+
+
+    <div id="Gallery">
+      <h2 class="gallery-heading">Our Most Popular Recipes </h2>
+      <p class="gallery-heading">Try our most delicious food and usually takes minutes to deliver</p>
+
+      <div class="card-group  ">
+
+        <div class="row" >
+
+
+
+    <div class="card border-0 col-lg-3 col-md-4 col-sm-12 " >
+
+      <div class="gallery-box card-body ">
+          <a href="details.html">
+          <img class="card-img-top" src="projectImages\meal1.png">
+        </a>
+
+          <p class="card-text">⭐4.5 rating</p>
+          <p class="card-text"><strong>Best sandwich</strong></p>
+          <p class="card-text">Some description</p>
+
+          <button class="gallery-button rounded-pill btn-sm  " onclick="addToCartIndex()" type="button" name="button">add to cart</button>
+          <p class="card-text gallery-price">23.9 SAR</p>
+
+      </div>
+
+      </div>
+
+
+      <div class="card border-0 col-lg-3 col-md-4 col-sm-12" >
+
+        <div class="gallery-box card-body ">
+            <a href="details.html">
+            <img class="card-img-top" src="projectImages\meal2.png">
+          </a>
+
+            <p class="card-text">⭐4.5 rating</p>
+            <p class="card-text"><strong>Burger</strong></p>
+            <p class="card-text">Some description</p>
+
+            <button class="gallery-button rounded-pill  btn-sm " onclick="addToCartIndex()" type="button" name="button">add to cart</button>
+            <p class="card-text gallery-price">25.9 SAR</p>
+
+        </div>
+
+        </div>
+
+
+        <div class="card border-0 col-lg-3 col-md-4 col-sm-12" >
+
+          <div class="gallery-box card-body ">
+              <a href="details.html">
+              <img class="card-img-top" src="projectImages\meal3.png">
+            </a>
+
+              <p class="card-text">⭐4.5 rating</p>
+              <p class="card-text"><strong>Burger Meal</strong></p>
+              <p class="card-text">Some description</p>
+
+              <button class="gallery-button rounded-pill btn-sm " onclick="addToCartIndex()" type="button" name="button">add to cart</button>
+              <p class="card-text gallery-price">27.5 SAR</p>
+
+          </div>
+
+          </div>
+          <div class="card border-0 col-lg-3 col-md-4 col-sm-12" >
+
+            <div class="gallery-box card-body ">
+                <a href="details.html">
+                <img class="card-img-top" src="projectImages\meal4.png">
+              </a>
+
+                <p class="card-text">⭐4.5 rating</p>
+                <p class="card-text"><strong>Best Deal Meal</strong></p>
+                <p class="card-text">Some description</p>
+
+                <button class="gallery-button rounded-pill btn-sm " onclick="addToCartIndex()" type="button" name="button">add to cart</button>
+                <p class="card-text gallery-price">32.9 SAR</p>
+
+            </div>
+
+            </div>
+            <div class="card  border-0 col-lg-3 col-md-4 col-sm-12"  >
+
+              <div class="gallery-box card-body ">
+                  <a href="details.html">
+                  <img class="card-img-top" src="projectImages\meal5.png">
+                </a>
+
+                  <p class="card-text">⭐4.5 rating</p>
+                  <p class="card-text"><strong>Chicken Burger</strong></p>
+                  <p class="card-text">Some description</p>
+
+                  <button class="gallery-button rounded-pill btn-sm " onclick="addToCartIndex()" type="button" name="button">add to cart</button>
+                  <p class="card-text gallery-price">19.4 SAR</p>
+
+              </div>
+
+              </div>
+
+              <div class="card border-0 col-lg-3 col-md-4 col-sm-12 " >
+
+                <div class="gallery-box card-body ">
+                    <a href="details.html">
+                    <img class="card-img-top" src="projectImages\meal6.png">
+                  </a>
+
+                    <p class="card-text">⭐4.5 rating</p>
+                    <p class="card-text"><strong>Pizza</strong></p>
+                    <p class="card-text">Some description</p>
+
+                    <button class="gallery-button rounded-pill  btn-sm " onclick="addToCartIndex()" type="button" name="button">add to cart</button>
+                    <p class="card-text gallery-price">28.5 SAR</p>
+
+                </div>
+
+                </div>
+
+
+      </div>
+
+      </div>
+      </div>
+
+    </div>
+
+    <div id="Testimonials">
+    <h2 class="Testimonials-heading">Clients Testimonials </h2>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators colorind">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="projectImages/man-eating-burger.png" class="d-block w-100" alt="...">
+
+          <p class="Testimonials-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam deserunt laborum, laboriosam veritatis quibusdam blanditiis dolor exercitationem velit commodi quae assumenda incidunt voluptas. Corporis ex nulla
+              repellendus ullam nihi!
+            </p>
+        </div>
+        <div class="carousel-item">
+          <img src="projectImages/man-eating-burger.png" class="d-block w-100" alt="...">
+
+          <p class="Testimonials-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam deserunt laborum, laboriosam veritatis quibusdam blanditiis dolor exercitationem velit commodi quae assumenda incidunt voluptas. Corporis ex nulla
+            repellendus ullam nihi!
+          </p>
+        </div>
+        <div class="carousel-item">
+          <img src="projectImages/man-eating-burger.png" class="d-block w-100" alt="...">
+
+
+          <p class="Testimonials-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam deserunt laborum, laboriosam veritatis quibusdam blanditiis dolor exercitationem velit commodi quae assumenda incidunt voluptas. Corporis ex nulla
+            repellendus ullam nihi!
+          </p>
+
+
+      </div>
+
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    </div>
+
+
+
+
+<div class="row">
+    <div id="Contact-Us" class="col-md-12 col-lg-6 fluid">
+      <ul class="contact-list">
+        <li>
+          <p>phone:<strong>+966-13-860-0000</strong></p>
+        </li>
+        <img class="contact-img" src="projectImages\clock.svg">
+        <li>
+          <p>sun-thr 11:00 - 23:00</p>
+        </li>
+        <li>
+          <p>fri-sat 12:00 - 23:00</p>
+        </li>
+      </ul>
+      <ul class="contact-list">
+        <img class="contact-img" src="projectImages\placeholder.svg">
+        <li>
+          <p>123 KFUPM Student Mall</p>
+        </li>
+        <li>
+          <p>Dhahran 34464</p>
+        </li>
+      </ul>
+
+      <a class="contact-links" href="#">facebook</a>
+      <a class="contact-links" href="#">Twitter</a>
+      <a class="contact-links" href="#">Instgram</a>
+    </div>
+
+    <img class="img-map col-md-12 col-lg-6" src="projectImages\map.png">
+
+  </div>
+    </div>
+
+
+    <div id="footer" class="row">
+      <div class="first-div col-sm-12 col-md-6 col-lg-4">
+        <img class="footer-logo" src="projectImages\logo-red.svg">
+        <p class="footer-p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam deserunt laborum, laboriosam veritatis quibusdam blanditiis dolor exercitationem velit commodi quae assumenda incidunt voluptas. Corporis ex nulla
+          repellendus ullam nihi!</p>
+      </div>
+
+
+
+      <div class="second-div col-sm-12 col-md-6 col-lg-4">
+        <h3>USEFUL LINKS</h3>
+
+        <nav class="footer-nav">
+          <ul class="footer-ul">
+            <li><a href="#Home">About</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Testimonials">Testimonials</a></li>
+            <li><a href="#Contact-Us">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+      <div class="third-div col-sm-12 col-md-6 col-lg-4">
+        <h3>INTEGRAM FEEDS</h3>
+        <a href="">
+          <img class="FEEDS-img" src="projectImages/meal1.png" alt="">
+        </a><a href="">
+          <img class="FEEDS-img" src="projectImages/meal2.png" alt="">
+        </a><a href="">
+          <img class="FEEDS-img" src="projectImages/meal3.png" alt="">
+        </a><a href="">
+          <img class="FEEDS-img" src="projectImages/meal4.png" alt="">
+        </a><a href="">
+          <img class="FEEDS-img" src="projectImages/meal5.png" alt="">
+        </a><a href="">
+          <img class="FEEDS-img" src="projectImages/meal6.png" alt="">
+        </a>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-Danger" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="gallery-button rounded-pill">Order Now</button>
+          </div>
+        </div>
+      </div>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>

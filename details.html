@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Index</title>
+</head>
+
+<body>
+
+   <div id="Home">
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+        
+            <img class="logow fluid" src="projectImages/logo-White.svg" alt="">
+            
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="#navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse justify-content-end  " id="navbarTogglerDemo03">
+            <ul class="navbar-nav  ml-auto">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="index.html#Menu">Menu</a></li>
+                <li class="nav-item"><a href="index.html#Gallery">Gallery</a></li>
+                <li class="nav-item"><a href="index.html#Testimonials">Testimonials</a></li>
+                <li class="nav-item"><a href="index.html#Contact-Us">Contact Us</a></li>
+
+</ul>
+                <ul class="navbar-nav navbar2 ml-auto">
+                <li class="nav-item"><a href="Search">Search</a></li>
+                <li class="nav-item"><a href="Profile">Profile</a></li>
+                <li class="nav-item"><a href="Cart">Cart</a><p id="counter-index">0</p></li>
+            </ul>           
+          </div>
+      
+      </nav>
+    </div>
+
+
+
+
+    <div class="best-sandwich row">
+
+        <div class=" img-div col-lg-6 col-md-12 col-sm-12">
+        <img src="projectImages\meal1.png" class="details-pic1 img-fluid">
+    </div>
+    
+        <div class=" best-s col-lg-6 col-md-12">
+        <h1 class="best-sandwich-h1">Best sandwich</h1>
+        <p>23.9 SAR</p>
+        <p>⭐4.5 rating</p>
+    
+      
+        <p class="best-sandwich-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+        <br>
+        <a ><button id="des-order" onclick="desOrder()" class="best-sandwich-btn">-</button> </a>
+    
+        <a ><button class="best-sandwich-btn1"><p id="counter-cart">1</p></button> </a>
+    
+        <a ><button id="inc-order" onclick="incOrder()" class="best-sandwich-btn">+</button> </a>
+    
+    
+    
+        <a><button class="best-sandwich-add-cart" onclick="addToCartDetails()">add to cart</button></a>
+    </div>
+      </div>
+
+
+      <ul class="tabs-button nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Description</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target=".reviews" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Reviews</button>
+        </li> 
+      </ul>
+
+
+      <div class="tab-content" id="pills-tabContent">
+
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="description">
+    
+        <p class="description-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+        <p class="description-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+      </div>
+
+      <div class="table-responsive">
+
+      <div class="table">
+    
+        <h4 class="nutrition">nutrition facts</h4>
+        <table class="nutrition-table">
+          <tr>
+            <td colspan="3"><strong>Supplement Facts</strong> </td>
+          </tr>
+          <tr>
+            <td colspan="3"><strong>Serving Size:</strong> 1 Cookie (57g)</td>
+          </tr>
+          <tr>
+            <td colspan="3"><strong>Serving Per Container:</strong> 12</td>
+          </tr>
+          <tr>
+            <td> </td>
+            <th> Amount Per Serving</th>
+            <th> %Daily Value*</th>
+          </tr>
+          <tr>
+            <td>Calories</td>
+            <td>200</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>Calories from Fat</td>
+            <td>70</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>Total Fat</td>
+            <td>7 g</td>
+            <td>11% </td>
+          </tr>
+          <tr>
+            <td>Saturated Fat</td>
+            <td>4 g</td>
+            <td>20% </td>
+          </tr>
+          <tr>
+            <td>Trans Fat</td>
+            <td>0 g</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>Cholesterol</td>
+            <td>0 mg</td>
+            <td>0% </td>
+          </tr>
+          <tr>
+            <td>Sodium</td>
+            <td>220mg</td>
+            <td>9% </td>
+          </tr>
+          <tr>
+            <td>Total Carbohydrate</td>
+            <td>31 g</td>
+            <td>10% </td>
+          </tr>
+          <tr>
+            <td>Dietary Fiber</td>
+            <td>5 g</td>
+            <td>20% </td>
+          </tr>
+          <tr>
+            <td>Sugars</td>
+            <td>12 g</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>Sugar Alcohol</td>
+            <td>0 g</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>Protein</td>
+            <td>8 g</td>
+            <td>8% </td>
+          </tr>
+          <tr>
+            <td>Vitamin A</td>
+            <td></td>
+            <td>0% </td>
+          </tr>
+          <tr>
+            <td>Vitamin C</td>
+            <td></td>
+            <td>0% </td>
+          </tr>
+          <tr>
+            <td>Calcium</td>
+            <td></td>
+            <td>2% </td>
+          </tr>
+          <tr>
+            <td>Iron</td>
+            <td></td>
+            <td>10% </td>
+          </tr>
+          <tr>
+            <td colspan="3">* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs</td>
+          </tr>
+        </table>
+      </div>
+
+      </div>
+    </div>
+
+    <div class></div>
+      <div class="reviews tab-pane fade fluid" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+        <div class="row">
+
+      <div class="rev-img col-lg-6 col-md-12">
+        <img class="reviews-img img-fluid" src="projectImages\man-eating-burger.png">
+      </div>
+      <div class="rev-text col-lg-6 col-md-12">
+        <h4 class="reviewer-name">reviewer name</h4>
+        <h5 class="review-location">Dhahran - Feb 08,2020 ⭐⭐⭐⭐⭐</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+        
+        
+        <button class="reviews-btn" onclick="showForm(this)">Add Your Review</button>
+        <form method="get" id="review">
+          <p>Image </p>
+          <label class="choose-image" for="image"></label><input class="choose-image" type="file" id="image" name="image">
+          <p>Rate the Food</p>
+          <input type="range" min="0" max="5" value="50" class="slider" id="myRange">
+          <p>Name</p>
+          <input class="name-rev" type="text" placeholder="First and Last name" name="name" size="20">
+          <p>Review</p>
+    
+    
+             <p id="Error-message"> </p>
+            <textarea class="rev-input" id="revIn" onkeyup="textCount(this)" type="text" placeholder="Type your review here max 500 characters" name="name" size="20"></textarea>
+            <p>
+            <span id="text-count">0</span>
+            <span id="out500">/500</span>
+          </p>
+    
+            <button class="reviews-btn2" onclick="checkText(this)">Submit</button>
+    
+        </form>
+
+    </div>
+
+      </div>
+      
+      </div>
+
+      <div class="row">
+        <div id="Contact-Us" class="col-md-12 col-lg-6 fluid">
+          <ul class="contact-list">
+            <li>
+              <p>phone:<strong>+966-13-860-0000</strong></p>
+            </li>
+            <img class="contact-img" src="projectImages\clock.svg">
+            <li>
+              <p>sun-thr 11:00 - 23:00</p>
+            </li>
+            <li>
+              <p>fri-sat 12:00 - 23:00</p>
+            </li>
+          </ul>
+          <ul class="contact-list">
+            <img class="contact-img" src="projectImages\placeholder.svg">
+            <li>
+              <p>123 KFUPM Student Mall</p>
+            </li>
+            <li>
+              <p>Dhahran 34464</p>
+            </li>
+          </ul>
+      
+          <a class="contact-links" href="#">facebook</a>
+          <a class="contact-links" href="#">Twitter</a>
+          <a class="contact-links" href="#">Instgram</a>
+        </div>
+
+        <div class="col-md-12 col-lg-6">
+        <img class="img-map img-fluid " src="projectImages\map.png">
+    </div>
+    
+      </div>
+        </div>
+    
+      
+        <div id="footer" class="row">
+          <div class="first-div col-sm-12 col-md-12 col-lg-4">
+            <img class="footer-logo" src="projectImages\logo-red.svg">
+            <p class="footer-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam deserunt laborum, laboriosam veritatis quibusdam blanditiis dolor exercitationem velit commodi quae assumenda incidunt voluptas. Corporis ex nulla
+              repellendus ullam nihi!</p>
+          </div>
+    
+    
+    
+          <div class="second-div col-sm-12 col-md-6 col-lg-4">
+            <h3>USEFUL LINKS</h3>
+      
+            <nav class="footer-nav">
+              <ul class="footer-ul">
+                <li><a href="#Home">About</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Testimonials">Testimonials</a></li>
+                <li><a href="#Contact-Us">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>
+    
+    
+          <div class="third-div col-sm-12 col-md-6 col-lg-4">
+            <h3>INTEGRAM FEEDS</h3>
+            <a href="">
+              <img class="FEEDS-img" src="projectImages/meal1.png" alt="">
+            </a><a href="">
+              <img class="FEEDS-img" src="projectImages/meal2.png" alt="">
+            </a><a href="">
+              <img class="FEEDS-img" src="projectImages/meal3.png" alt="">
+            </a><a href="">
+              <img class="FEEDS-img" src="projectImages/meal4.png" alt="">
+            </a><a href="">
+              <img class="FEEDS-img" src="projectImages/meal5.png" alt="">
+            </a><a href="">
+              <img class="FEEDS-img" src="projectImages/meal6.png" alt="">
+            </a>
+          </div>
+        </div>
+      
+
+
+
+
+
+
+
+      <script src="app.js" charset="utf-8"></script>
+    </body>
+
+</html>

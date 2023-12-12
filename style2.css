@@ -1,0 +1,270 @@
+#Home {
+    position: relative;
+  }
+
+
+.navbar {
+    background-color: #281923;
+    opacity: 61%;
+    position: fixed;
+    
+    text-size-adjust: 50px;
+    z-index: 200; 
+  }
+  
+  .navbar ul li {
+    padding: 17px 20px 17px 20px;
+  }
+  
+  .navbar a {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .navbar li:hover {
+    border-top: 4px solid #FFAA00;
+    padding-top: 1rem;
+  }
+  
+  
+  .logow {
+    position: relative;
+    width: 10%;
+    left: 10rem;
+    
+    z-index: 200;
+  }
+  .navbar2 {
+    background-color: #A80E0E;
+    
+    
+  }
+
+  .partytime {
+    position:  absolute;
+    color: white;
+    top: 10rem;
+    margin-left: 10rem;
+    font-size: 5rem;
+  }
+
+  .buy2 {
+    color: white;
+    font-size: 3rem;
+    text-align: left;
+    padding-left: 6.5rem;
+    padding-top: 2.5rem;
+    padding-right: 6rem;
+    position: absolute;
+    background-color: #FFAA00;
+    width: 30%;
+    clip-path: polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 15% 50%, 0 0);
+    height: 10rem;
+    bottom: 18rem;
+    left: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+   
+  }
+
+  .testbutton {
+    position: absolute;
+    font-family: arial;
+    color: #A80E0E !important;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 0px #A80E0E;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 23px;
+    border-radius: 34px;
+    border: 0px solid black;
+    background: #FFAA00;
+    font-family: 'Roboto', sans-serif;
+    bottom: 5rem;
+    left: 10rem;
+    width: 8%;
+  }
+  
+
+  #counter-index {
+    position: relative;
+    display: inline;
+    background-color: yellow;
+    height: 1rem;
+    color: red;
+    font-size: 1rem;
+    margin-left: 6px;
+  }
+  .navlinks {
+    list-style-type: none;
+    
+  }
+  
+  .navbar2 ul li {
+    left: 30px;
+    padding: 5px 15px;
+    display: inline;
+  }
+  
+  nav.navbar2 a {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+
+
+
+
+
+  #Menu {
+    margin-bottom: 20rem;
+  }
+  .Menu-heading {
+    margin-top: 20rem;
+    text-align: center;
+  }
+  
+  .Menu-p {
+    text-align: center;
+  }
+  
+  .Menu-food {
+    text-align: center;
+  }
+  .Menu-p2 {
+    position: relative;
+    left: 80rem;
+    bottom: 50rem;
+    display: block;
+    width: 30rem;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .Menu-food {
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    padding-right: 8rem;
+  }
+  
+  .Menu-food-div {
+    text-align: center;
+  }
+
+  .delivery-pic {
+    position: relative;
+    width: 100%;
+    background-color: #FFAA00;
+    height: 70rem;
+  }
+  
+  .delivery {
+    position: absolute;
+    height: 70rem;
+  }
+  
+  .buy3 {
+    position: relative;
+    width: 40rem;
+    height: 11.5rem;
+    left: 73.9rem;
+    bottom: 50rem;
+    padding-top: 8.5rem;
+    padding-left: 5rem;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    background-color: #A80E0E;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  }
+
+
+  .gallery-heading {
+    text-align: center;
+  }
+  
+  .gallery-box {
+    margin-left: 10rem;
+    display: inline-block;
+    border-radius: 1.5rem;
+    box-shadow: 7px 15px 51px -18px grey;
+  }
+  
+  .img-meal {
+    height: 25%;
+    max-height: 25%;
+  }
+  
+  .gallery-button {
+
+    position: relative;
+    bottom: 0.5rem;
+    font-family: arial;
+    color: black !important;
+    font-size: 1.4rem;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 23px;
+    border-radius: 34px;
+    border: 0px solid #3866A3;
+    background: #FFAA00;
+    font-family: 'Roboto', sans-serif;
+    width: 30%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .gallery-button:hover {
+    color: black !important;
+    background: #FFDD00;
+  }
+  
+  .gallery-price {
+    float: right;
+    right: 17rem;
+    margin: 0;
+  }
+  
+  .box-text {
+    font-weight: 200;
+  } 
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #A80E0E;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #A80E0E;
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #A80E0E;
+    font-size: 2rem;
+  }
+  
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+  }
+  
+  span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .party {
+    position: relative;
+    width: 100%;
+    margin-top: -8rem;
+  }
+
